@@ -1,4 +1,4 @@
-# flutter-testing-tutorial
+# com_dromzee_flutter_testing
 A tutorial for flutter testing
 
 #tuto #flutter #dart #testing
@@ -8,13 +8,13 @@ A tutorial for flutter testing
 
 ### Create Github repo
 
-- https://github.com/DROMZEE/flutter-testing-tutorial
+- https://github.com/DROMZEE/com_dromzee_flutter_testing
 
 ### Open projet localy
 
 ```console
-git clone git@github.com:DROMZEE/flutter-testing-tutorial.git
-cd flutter-testing-tutorial
+git clone git@github.com:DROMZEE/com_dromzee_flutter_testing.git
+cd com_dromzee_flutter_testing
 code .
 ```
 
