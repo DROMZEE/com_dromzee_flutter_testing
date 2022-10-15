@@ -37,6 +37,45 @@ flutter run
 ```
 
 
+### Modifier la fonction counter
+
+Pour que le compteur change de couleur :
+- vert si c'est un nombre pair
+- orange si c'est un nombre impair
+
+#### créer le fichier counter.dart
+
+```dart
+class Counter {
+  int number = 0;
+
+  Counter();
+
+  increment() {
+    number = number + 1;
+  }
+
+  Color setColor() => (number.isEven) ? Colors.green : Colors.deepOrange;
+}
+```
+
+#### adapter le code de main.dart
+
+
+
+### Ajouter le test pour counter.dart
+
+```dart
+test('Test init', () {
+    Counter counter = Counter();
+    expect(counter.number, 0);
+    expect(counter.setColor(), Colors.green);
+```
+
+### Lancer les tests
+
+cliquer sur la fleche verte dans le code 
+
 ## CMD
 
 ```console
