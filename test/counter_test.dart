@@ -8,4 +8,11 @@ void main() {
     expect(counter.number, 0);
     expect(counter.setColor(), Colors.green);
   });
+
+  test('Test impair', () {
+    Counter counter = Counter();
+    counter.increment();
+    expect(counter.number, 1);
+    expect(counter.setColor(), Colors.deepOrange);
+  });
 }
