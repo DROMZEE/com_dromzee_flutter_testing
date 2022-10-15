@@ -27,7 +27,7 @@ code .
 ### Créer le projet flutter 
 
 ```console
-flutter create com_dromzee_flutter-testing-tutorial
+flutter create com_dromzee_flutter_testing
 ```
 
 
