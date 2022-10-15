@@ -24,6 +24,29 @@ code .
 - https://www.toptal.com/developers/gitignore/api/flutter,dart,git,visualstudiocode
 
 
-### Creer le projet flutter 
+### Créer le projet flutter 
 
+```console
 flutter create com_dromzee_flutter-testing-tutorial
+```
+
+
+
+
+## CMD
+
+```console
+flutter doctor
+flutter upgrade
+flutter clean
+flutter analyze
+flutter test
+```
+
+
+## Liens
+
+- https://dromzee.fr
+- https://github.com/DROMZEE/
+
+
